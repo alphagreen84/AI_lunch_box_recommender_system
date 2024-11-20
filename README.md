@@ -54,7 +54,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-Set following enviroments variables
+Set following API keys as enviroments variables
 
 - account_sid
 - auth_token
