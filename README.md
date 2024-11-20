@@ -11,9 +11,7 @@ An intelligent tool to plan your weekly shopping by scraping ICA's website for w
 1. [About the Project](#about-the-project)
 2. [Getting Started](#getting-started)
 3. [Usage](#usage)
-4. [Features](#features)
-5. [Contributing](#contributing)
-6. [License](#license)
+
 
 ---
 
@@ -49,3 +47,17 @@ cd AI_lunch_box_recommender_system
 
 # Install dependencies
 pip install -r requirements.txt
+
+### **Usage**
+````
+
+1. Set the following environment variables:
+
+    TWILIO_ACCOUNT_SID: Twilio account SID
+    TWILIO_AUTH_TOKEN: Twilio auth token
+    my_twilio_number: Twilio-provided phone number
+    my_phone_number: Your verified phone number
+
+2. To run:
+
+    python chat_gpt_app.ipynb
