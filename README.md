@@ -54,7 +54,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-Set following API keys as enviroments variables
+Set following API keys as enviroments variables:
 
 - account_sid
 - auth_token
@@ -62,6 +62,6 @@ Set following API keys as enviroments variables
 - my_phone_number
 - openai
 
-To run
+To run:
 
-python chat_gpt_app.ipynb
+python chat_gpt_app.ipynb (jupyter notebook)
