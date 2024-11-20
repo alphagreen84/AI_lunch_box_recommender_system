@@ -49,15 +49,19 @@ cd AI_lunch_box_recommender_system
 pip install -r requirements.txt
 
 ### **Usage**
-````
+```
 
-1. Set the following environment variables:
 
-    TWILIO_ACCOUNT_SID: Twilio account SID
-    TWILIO_AUTH_TOKEN: Twilio auth token
-    my_twilio_number: Twilio-provided phone number
-    my_phone_number: Your verified phone number
+## Usage
 
-2. To run:
+Set following enviroments variables
 
-    python chat_gpt_app.ipynb
+- account_sid
+- auth_token
+- my_twilio_number
+- my_phone_number
+- openai
+
+To run
+
+python chat_gpt_app.ipynb
